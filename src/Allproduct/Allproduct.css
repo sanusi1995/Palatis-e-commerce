@@ -1,0 +1,49 @@
+
+#Product-container{
+padding: 20px 30px;
+position: absolute;
+
+}
+
+.Product-mini-container{
+    background: #F1F5F9;
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 260px;
+    padding: 5px 10px;
+    position: relative;
+   
+}
+
+.ProductImg img{
+    width: 250px;
+}
+
+.Price-Container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+}
+
+.Product-mini-container button{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 15px;
+    background-color: blue;
+    color: white;
+    margin-bottom: 1rem;
+    margin-top: 5%;
+    border-radius: 10px;
+}
+
+.AmountFixed{
+    color: blue;
+    font-size: small;
+}
+
+.cartbtn{
+   width: 20px;
+}
