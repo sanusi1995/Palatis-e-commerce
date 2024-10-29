@@ -1,32 +1,33 @@
+#Navbar-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  margin: 0 auto;
+  width: 100vw;
+  max-width: 75rem;
+  height: 5rem;
+  position: sticky;
+  padding: 1rem 2rem;
+  top: 0;
+  z-index: 3;
+  background-color: #567;
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+}
+
+
+.navList{
+    color: white;
     overflow: hidden;
-    position: -webkit-sticky; 
     position: sticky;
     top: 0;
     background-color: #567;
-
+    height: 100%;
+  }
+    
+.navList:hover{
+    background-color: green;
+    
   }
   
-  li {
-    float: left;
-  }
-  
-  li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  
-  li a:hover:not(.active) {
-    background-color: #111;
-  }
-  
-  .active {
-    background-color: #04AA6D;
-  }
+ 
